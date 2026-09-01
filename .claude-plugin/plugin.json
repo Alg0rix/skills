@@ -1,0 +1,22 @@
+{
+  "name": "alg0rix-skills",
+  "version": "0.1.0",
+  "description": "Alg0rix agent skills: high-impact tests, verified code paths, no overengineering.",
+  "author": {
+    "name": "Marchel Fahrezi",
+    "url": "https://github.com/Alg0rix"
+  },
+  "repository": "https://github.com/Alg0rix/skills",
+  "license": "MIT",
+  "keywords": [
+    "development",
+    "testing",
+    "productivity",
+    "skills"
+  ],
+  "skills": [
+    "./skills/development/avoid-overengineering",
+    "./skills/development/code-path",
+    "./skills/testing/high-impact-testing"
+  ]
+}

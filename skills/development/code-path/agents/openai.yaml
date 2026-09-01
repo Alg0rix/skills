@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Path"
+  short_description: "Trace real code paths with path:line evidence"
+  default_prompt: "Use $code-path to explain the verified behaviour path for this."

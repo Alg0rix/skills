@@ -1,0 +1,4 @@
+interface:
+  display_name: "Avoid Overengineering"
+  short_description: "Keep design and execution appropriately scoped"
+  default_prompt: "Use $avoid-overengineering to keep this task focused and justified."

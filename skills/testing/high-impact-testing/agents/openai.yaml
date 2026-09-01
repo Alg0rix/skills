@@ -1,0 +1,4 @@
+interface:
+  display_name: "High-Impact Testing"
+  short_description: "Write tests that catch real bugs, not coverage"
+  default_prompt: "Use $high-impact-testing when writing or reviewing tests."
