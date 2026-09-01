@@ -2,10 +2,11 @@
 name: cleanup-tests
 description: >
   Use when the user asks to clean up, trim, deslop, or delete existing tests;
-  when a suite is bloated, flaky, over-mocked, coverage-padded, or coupled to
-  implementation. Also /cleanup-tests, "clean up the tests", "too many tests".
-  Do not use for writing new tests (use high-impact-testing) or for cleaning
-  skills or application code.
+  when there are too many tests, they test nonsense, or the suite is bloated,
+  flaky, over-mocked, coverage-padded, or coupled to implementation. Also
+  /cleanup-tests, "too many tests", "tests are junk". Do not use for writing
+  new tests (use high-impact-testing) or for cleaning skills or application
+  code.
 license: MIT
 metadata:
   author: Marchel Fahrezi (Alg0rix)
@@ -13,11 +14,14 @@ metadata:
 
 # Cleanup Tests
 
+Too many tests is bad when they test nonsense. A green suite of getters,
+mocks, and coverage padding ships broken prod with confidence. Deslop it.
+
 Delete tests that cannot catch a real bug. Do not add tests while cleaning.
 Do not change product behaviour to make a leftover test pass.
 
 The keep/delete bar is **high-impact-testing**. This skill is the pass over
-an existing suite.
+an existing suite. A small suite that can fail beats a large one that cannot.
 
 ## Persistence
 
@@ -58,7 +62,8 @@ Mark a keep that looks skippable with `// high-impact-testing: <why>`.
   thing forcing extra complexity — then shrink the product, don't add tests.
 - After deletes, run the remaining tests in scope. If something fails that
   you did not intend to touch, stop and say so.
-- 80:20. The long tail of "just in case" tests goes.
+- 80:20. The long tail of "just in case" tests goes. Count is not quality;
+  nonsense tests are debt. Delete them even if coverage drops.
 
 ## Output
 
