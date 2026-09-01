@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cleanup Tests"
+  short_description: "Delete tests that cannot catch a real bug"
+  default_prompt: "Use $cleanup-tests on the existing tests in scope."

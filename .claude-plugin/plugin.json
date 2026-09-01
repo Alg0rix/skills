@@ -18,6 +18,6 @@
     "./skills/development/avoid-overengineering",
     "./skills/development/code-path",
     "./skills/testing/high-impact-testing",
-    "./skills/productivity/cleanup-skills"
+    "./skills/testing/cleanup-tests"
   ]
 }

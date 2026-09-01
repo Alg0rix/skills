@@ -12,10 +12,7 @@ npx skills@latest add Alg0rix/skills
 ## testing
 
 - **[high-impact-testing](./skills/testing/high-impact-testing/SKILL.md)** — tests that catch real bugs. Behaviour, not implementation. Skip what the type system already guarantees. Verify only through the interface. 80:20.
-
-## productivity
-
-- **[cleanup-skills](./skills/productivity/cleanup-skills/SKILL.md)** — trim existing skills. Delete first. Do not rewrite purpose.
+- **[cleanup-tests](./skills/testing/cleanup-tests/SKILL.md)** — delete existing tests that cannot catch a real bug. No new tests in this pass.
 
 ## layout
 

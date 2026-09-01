@@ -1,4 +1,0 @@
-interface:
-  display_name: "Cleanup Skills"
-  short_description: "Trim existing skills; delete first, no rewrite"
-  default_prompt: "Use $cleanup-skills on the existing skills in this repo."
