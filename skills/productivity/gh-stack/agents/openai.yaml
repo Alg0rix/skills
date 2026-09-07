@@ -1,0 +1,4 @@
+interface:
+  display_name: "gh-stack"
+  short_description: "Stacked PRs with the gh stack CLI"
+  default_prompt: "Use $gh-stack when creating, editing, or shipping stacked pull requests."
