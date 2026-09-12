@@ -17,6 +17,7 @@ npx skills@latest add Alg0rix/skills
 ## productivity
 
 - **[gh-stack](./skills/productivity/gh-stack/SKILL.md)** — stacked PRs with `gh stack`. Split multi-part work into reviewable layers. Never run the TUI.
+- **[personal-memory](./skills/productivity/personal-memory/SKILL.md)** — persistent Markdown+git memory at `~/.workspace`. Recall before work, write learnings back, sync via git.
 
 ## layout
 

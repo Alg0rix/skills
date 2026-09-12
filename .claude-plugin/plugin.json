@@ -19,6 +19,7 @@
     "./skills/development/code-path",
     "./skills/testing/high-impact-testing",
     "./skills/testing/cleanup-tests",
-    "./skills/productivity/gh-stack"
+    "./skills/productivity/gh-stack",
+    "./skills/productivity/personal-memory"
   ]
 }
