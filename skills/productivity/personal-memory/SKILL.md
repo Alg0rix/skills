@@ -1,6 +1,6 @@
 ---
 name: personal-memory
-description: Persistent cross-agent memory at ~/.workspace (Markdown + git). Use when asked to remember or recall something, when starting work that may have prior context, or when a run produces a learning, decision, or preference worth keeping.
+description: Persistent cross-agent memory at ~/.workspace (Markdown + git). Proactively recall it at the start of any task that may have prior context, and write back learnings, decisions, preferences, and outcomes without being asked. Also for explicit "remember" / "what did we learn" requests.
 ---
 
 # Memory
@@ -25,7 +25,7 @@ Keep the store current so memory written by other agents and machines is visible
 
 ## Remember
 
-When the user says "remember this", or a run produces a durable learning, decision, or preference:
+Decide proactively: after any run that produced a durable learning, decision, preference, or correction, write it — do not wait for the user to say "remember".
 
 1. Pull first if you haven't this run — avoids clobbering concurrent writes.
 2. Write the file per README conventions:
