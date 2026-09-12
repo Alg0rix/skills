@@ -19,7 +19,7 @@ Keep the store current so memory written by other agents and machines is visible
 ## Recall
 
 - Scan `~/.workspace/INDEX.md` first — it indexes every memory file by date, tags, and summary.
-- Search: `grep -ril "keyword" ~/.workspace --include="*.md"`, or `ls -t ~/.workspace/learnings/ | head` for recent.
+- Search: `rg -il "keyword" ~/.workspace` (fallback: `grep -ril "keyword" ~/.workspace --include="*.md"`); `ls -t ~/.workspace/learnings/ | head` for recent.
 - For project work, also check `~/.workspace/projects/<name>.md` and `~/.workspace/preferences.md`.
 - Read only the files the index points to; don't bulk-read the store.
 
