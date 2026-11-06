@@ -16,6 +16,7 @@ npx skills@latest add Alg0rix/skills
 
 ## productivity
 
+- **[setup-claude](./skills/productivity/setup-claude/SKILL.md)** — configure Claude global instructions, internal auto-memory, persistent personal memory, Haiku search/test agents, and Opus reviews.
 - **[gh-stack](./skills/productivity/gh-stack/SKILL.md)** — stacked PRs with `gh stack`. Split multi-part work into reviewable layers. Never run the TUI.
 - **[personal-memory](./skills/productivity/personal-memory/SKILL.md)** — proactive Markdown+git memory at `~/.workspace` with `INDEX.md` as its entry point, linked notes, source metadata, and memory consolidation.
 
